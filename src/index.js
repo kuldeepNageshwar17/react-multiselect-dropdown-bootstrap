@@ -168,6 +168,7 @@ class DropdownMultiselect extends React.Component {
           {this.props.showSelectToggle === true && (
             <div className="btn-group btn-group-sm btn-block">
               <button
+type="button"
                 className="actions-btn btn btn-light"
                 onClick={() => this.handleSelectDeselectAll()}
               >
